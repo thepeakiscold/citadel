@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 90" width="420" height="90">
+  <defs>
+    <linearGradient id="citadelGradFoot" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="50%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#818CF8" />
+    </linearGradient>
+  </defs>
+  
+  <g transform="translate(12, 12)">
+    <polygon points="34,2 64,19 64,51 34,68 4,51 4,19" fill="#0F172A" stroke="url(#citadelGradFoot)" stroke-width="4" stroke-linejoin="round" />
+    <polygon points="34,14 52,24 52,44 34,54 16,44 16,24" fill="url(#citadelGradFoot)" fill-opacity="0.2" stroke="url(#citadelGradFoot)" stroke-width="2.5" stroke-linejoin="round" />
+    <path d="M 34,18 L 34,50 M 20,29 L 34,37 L 48,29" fill="none" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="34, 34" r="3.5" fill="#38BDF8" />
+  </g>
+
+  <text x="96" y="47" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', 'Helvetica Neue', sans-serif" font-size="34" font-weight="900" letter-spacing="4" fill="#FFFFFF">CITADEL</text>
+  <text x="98" y="68" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', 'Helvetica Neue', sans-serif" font-size="11" font-weight="700" letter-spacing="2.8" fill="#38BDF8">PRECISION ENGINEERING SYSTEMS</text>
+</svg>

@@ -28,12 +28,13 @@ function initNavigation() {
       if (!isVisible) {
         mainNav.style.flexDirection = 'column';
         mainNav.style.position = 'absolute';
-        mainNav.style.top = '76px';
+        mainNav.style.top = '92px';
         mainNav.style.left = '0';
         mainNav.style.right = '0';
-        mainNav.style.background = 'rgba(8, 11, 17, 0.98)';
+        mainNav.style.background = 'rgba(255, 255, 255, 0.98)';
         mainNav.style.padding = '24px';
-        mainNav.style.borderBottom = '1px solid var(--border-bright)';
+        mainNav.style.borderBottom = '1px solid var(--border-subtle)';
+        mainNav.style.boxShadow = '0 10px 25px rgba(0, 0, 0, 0.08)';
       }
     });
   }
