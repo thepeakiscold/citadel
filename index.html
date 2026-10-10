@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Citadel | Precision Aerodynamic Facilities & Industrial Circular Tech</title>
+  <meta name="description" content="Citadel - Advanced engineering and hardware development based in ODTU Teknokent, Turkey. Modular fan-array wind facilities, 30x30 single-shaft shredders, and desktop filament extruders.">
+  <meta name="author" content="Citadel">
+  
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Citadel | Advanced Engineering Solutions">
+  <meta property="og:description" content="Modular wind testing facilities, single-shaft shredder machines, and desktop filament extrusion hardware. Base: ODTU Teknokent, Ankara.">
+  <meta property="og:image" content="assets/images/citadel_windshaper_render.jpg">
+
+  <!-- Fonts & Styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/svg+xml" href="assets/images/citadel_logo.svg">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       HEADER & NAVIGATION
+       ========================================================================== -->
+  <header class="site-header">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="#hero" class="brand-link">
+          <img src="assets/images/citadel_logo.svg" alt="Citadel Logo" height="44">
+        </a>
+
+        <nav class="main-nav" id="mainNav">
+          <ul class="nav-links">
+            <li><a href="#solutions" class="nav-link">Solutions</a></li>
+            <li><a href="#machines" class="nav-link">Machinery</a></li>
+            <li><a href="#interactive-studio" class="nav-link">Simulation Studio</a></li>
+            <li><a href="#configurator" class="nav-link">AeroGrid Builder</a></li>
+            <li><a href="#specifications" class="nav-link">Specifications</a></li>
+            <li><a href="#teknokent" class="nav-link">R&D Lab</a></li>
+          </ul>
+
+          <div class="nav-actions">
+            <button class="btn btn-primary" data-open-modal="rfqModal">Request Quote</button>
+          </div>
+        </nav>
+
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       HERO SECTION
+       ========================================================================== -->
+  <section class="hero-section" id="hero">
+    <div class="hero-glow-1"></div>
+    <div class="hero-glow-2"></div>
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="hero-tag">
+            <span class="badge"><span class="pulse-dot"></span> BASE: ODTU TEKNOKENT • ANKARA</span>
+            <span class="badge badge-amber">PRECISION HARDWARE R&D</span>
+          </div>
+
+          <h1 class="hero-title">
+            Engineering Next-Gen <br>
+            <span class="gradient-text">Aerodynamics & Circular</span><br>
+            Manufacturing Tech
+          </h1>
+
+          <p class="hero-desc">
+            At <strong>Citadel</strong>, we design and manufacture cutting-edge modular fan-array wind facilities for fluid mechanics, high-torque single-shaft shredders, and precision desktop filament extruders — bridging aerospace testing with closed-loop sustainable manufacturing.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#interactive-studio" class="btn btn-primary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              Launch Interactive Simulators
+            </a>
+            <a href="#configurator" class="btn btn-secondary">
+              Configure Wind Facility
+            </a>
+            <button class="btn btn-outline" data-open-modal="rfqModal">
+              Request Commercial RFQ
+            </button>
+          </div>
+
+          <div class="hero-stats-row">
+            <div class="hero-stat-card">
+              <span class="num">25 m/s</span>
+              <span class="label">Max Controlled Wind Speed</span>
+            </div>
+            <div class="hero-stat-card">
+              <span class="num">30x30 cm</span>
+              <span class="label">Single-Shaft Cutting Chamber</span>
+            </div>
+            <div class="hero-stat-card">
+              <span class="num">±0.02 mm</span>
+              <span class="label">Laser Extrusion Tolerance</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual-card">
+          <div class="hero-visual-header">
+            <span class="hero-visual-title">Citadel Hardware Showcase</span>
+            <span class="badge badge-emerald">Active Systems</span>
+          </div>
+          <div class="hero-image-frame">
+            <img src="assets/images/citadel_windshaper_render.jpg" alt="Citadel AeroGrid Wind Facility in ODTU Teknokent Lab">
+            <div class="hero-badge-overlay">
+              <span style="font-weight: 600; color: #fff;">Citadel AeroGrid Modular Wind Facility</span>
+              <span class="mono" style="color: var(--accent-cyan);">UAV Aerodynamics Lab</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SOLUTIONS OVERVIEW
+       ========================================================================== -->
+  <section id="solutions">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">TURKEY'S ADVANCED HARDWARE PIONEER</span>
+        <h2 class="section-title">Integrated Fluid Testing & Polymer Systems</h2>
+        <p class="section-desc">
+          From unconstrained drone aerodynamic simulation to precision recycling that turns industrial scrap back into 3D printer filament, Citadel provides end-to-end hardware solutions for universities, aerospace institutes, and manufacturing facilities.
+        </p>
+      </div>
+
+      <div class="product-showcase-grid" id="machines">
+
+        <!-- PRODUCT 1: AEROGRID (WINDSHAPER) -->
+        <article class="product-feature-card" id="aerogrid">
+          <div class="product-media-column">
+            <img src="assets/images/citadel_windshaper_render.jpg" alt="Citadel AeroGrid Modular Wind Tunnel">
+            <span class="product-overlay-badge">AeroGrid Facility</span>
+          </div>
+          <div class="product-info-column">
+            <span class="product-category">Aerodynamics & Flow Generation</span>
+            <h3 class="product-heading">Citadel AeroGrid™ Modular Windshaper</h3>
+            <p class="product-narrative">
+              Developed in Turkey to overcome the static constraints of conventional wind tunnels. The Citadel AeroGrid utilizes a modular matrix of individually addressable fan pixels capable of generating arbitrary spatial and temporal wind conditions. Simulate urban gusts, ground-effect drafts, crosswinds, and rotor turbulence with precision.
+            </p>
+            <ul class="product-highlights">
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Up to 25 m/s per wind pixel</span>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Modular 25x25 cm 9-fan units</span>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Python API & Web Control Interface</span>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Open test volume for UAVs & VTOLs</span>
+              </li>
+            </ul>
+            <div class="product-actions">
+              <button class="btn btn-primary" data-open-modal="rfqModal" data-rfq-system="AEROGRID">Inquire for Pricing & Specs</button>
+              <a href="#configurator" class="btn btn-secondary">Open Builder</a>
+            </div>
+            <div class="btn-price-info">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+              <span>Custom quoted based on array size and mounting cradle options.</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- PRODUCT 2: SHREDX-30 (SINGLE-SHAFT ROTARY SHREDDER) -->
+        <article class="product-feature-card reverse" id="shredder">
+          <div class="product-media-column">
+            <img src="assets/images/citadel_shredder_render.jpg" alt="Citadel ShredX-30 Single-Shaft Shredder Machine">
+            <span class="product-overlay-badge">30x30 cm Industrial Chamber</span>
+          </div>
+          <div class="product-info-column">
+            <span class="product-category">Polymer Recycling & Size Reduction</span>
+            <h3 class="product-heading">Citadel ShredX-30 Single-Shaft Shredder</h3>
+            <p class="product-narrative">
+              Engineered with a high-torque single rotary shaft with spiral staggered claw blades shearing against a rigid fixed counter-blade comb. Built on heavy-duty T-slot aluminum extrusion profiles and high-grade Hardox tool steel, the ShredX-30 crushes failed 3D prints, plastic purges, and engineering polymer waste into uniform 4mm regrind.
+            </p>
+            <ul class="product-highlights">
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Single powered shaft & fixed counter-comb</span>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>300 x 300 mm active cutting volume</span>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Industrial planetary reduction gearbox</span>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Auto-reverse jam clearance & E-stop safety</span>
+              </li>
+            </ul>
+            <div class="product-actions">
+              <button class="btn btn-primary" data-open-modal="rfqModal" data-rfq-system="SHREDX30">Request ShredX-30 Quote</button>
+              <a href="#interactive-studio" class="btn btn-secondary">Simulate Shearing</a>
+            </div>
+            <div class="btn-price-info">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+              <span>Pricing provided upon request based on motor voltage & blade metallurgy.</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- PRODUCT 3: EXTRUDEX (DESKTOP FILAMENT EXTRUDER) -->
+        <article class="product-feature-card" id="extruder">
+          <div class="product-media-column">
+            <img src="assets/images/citadel_extruder_render.jpg" alt="Citadel ExtrudeX Desktop Filament Extruder Machine">
+            <span class="product-overlay-badge">Desktop Precision System</span>
+          </div>
+          <div class="product-info-column">
+            <span class="product-category">Additive Manufacturing Hardware</span>
+            <h3 class="product-heading">Citadel ExtrudeX Desktop Extruder</h3>
+            <p class="product-narrative">
+              The premier laboratory desktop filament extruder designed to convert shredded plastics from the ShredX-30 or virgin pellets into certified 1.75 mm or 2.85 mm 3D printing filament. Featuring multi-zone PID heating bands, nitrided compression screw, optical dual-axis laser diameter micrometer with closed-loop speed adjustment, and motorized spool winding.
+            </p>
+            <ul class="product-highlights">
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Optical dual-laser real-time diameter PID</span>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Multi-zone 300°C ceramic heating barrel</span>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>PLA, PETG, ABS, PA-CF, TPU compatible</span>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Integrated automatic spool winder & traverse</span>
+              </li>
+            </ul>
+            <div class="product-actions">
+              <button class="btn btn-primary" data-open-modal="rfqModal" data-rfq-system="EXTRUDEX">Request ExtrudeX Quote</button>
+              <a href="#interactive-studio" class="btn btn-secondary">Simulate Extrusion</a>
+            </div>
+            <div class="btn-price-info">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+              <span>Contact our ODTU Teknokent engineers for lab packages and quotes.</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       INTERACTIVE SIMULATION STUDIO
+       ========================================================================== -->
+  <section class="studio-section" id="interactive-studio">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge badge-emerald">PHYSICS & KINEMATICS ENGINE</span>
+        <h2 class="section-title">Interactive Machine Demonstration Studio</h2>
+        <p class="section-desc">
+          Experience Citadel machines in action. Interact with live flow vectors in the AeroGrid wind tunnel, test the single-shaft rotary blade shredder with plastic drops, and adjust extrusion parameters with real-time laser micrometer feedback.
+        </p>
+      </div>
+
+      <!-- Studio Tabs -->
+      <div class="studio-tabs">
+        <button class="studio-tab-btn active" data-target="tabAeroGrid">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9.59 4.59A2 2 0 1 1 11 8H2m10.59 11.41A2 2 0 1 0 14 16H2m15.73-8.27A2.5 2.5 0 1 1 19.5 12H2"></path></svg>
+          Citadel AeroGrid Flow Simulator
+        </button>
+        <button class="studio-tab-btn" data-target="tabShredder">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+          Citadel ShredX-30 Shearing Mechanism
+        </button>
+        <button class="studio-tab-btn" data-target="tabExtruder">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+          Citadel ExtrudeX Process Schematic
+        </button>
+      </div>
+
+      <div class="simulator-viewport">
+
+        <!-- PANE 1: AEROGRID -->
+        <div class="sim-pane active" id="tabAeroGrid">
+          <div class="sim-layout">
+            <div class="canvas-container">
+              <canvas id="aeroCanvas"></canvas>
+              <div class="canvas-overlay-ui">
+                <span class="canvas-badge">AeroGrid Array Matrix</span>
+                <span class="canvas-badge">UAV Sting Load: Active</span>
+              </div>
+            </div>
+
+            <div class="sim-controls-panel">
+              <h4 style="color: var(--accent-cyan); font-size: 1.05rem;">AeroGrid Telemetry & Control</h4>
+
+              <div class="control-group">
+                <div class="control-label-row">
+                  <span>Wind Velocity</span>
+                  <span class="control-val" id="windSpeedVal">14.0 m/s</span>
+                </div>
+                <input type="range" id="windSpeedSlider" min="0" max="25" step="0.5" value="14">
+              </div>
+
+              <div class="control-group">
+                <div class="control-label-row">
+                  <span>Turbulence Intensity</span>
+                  <span class="control-val" id="windTurbVal">12%</span>
+                </div>
+                <input type="range" id="windTurbSlider" min="0" max="40" step="1" value="12">
+              </div>
+
+              <div class="control-group">
+                <div class="control-label-row">
+                  <span>Drone Pitch Angle</span>
+                  <span class="control-val" id="dronePitchVal">4°</span>
+                </div>
+                <input type="range" id="dronePitchSlider" min="-25" max="25" step="1" value="4">
+              </div>
+
+              <div class="control-group">
+                <span style="font-size: 0.825rem; font-weight: 600; color: var(--text-secondary);">Atmospheric Presets</span>
+                <div class="sim-button-row">
+                  <button class="btn-chip" data-aero-preset="laminar">Laminar</button>
+                  <button class="btn-chip active" data-aero-preset="cruise">Cruise (16 m/s)</button>
+                  <button class="btn-chip" data-aero-preset="gust">Severe Gust</button>
+                  <button class="btn-chip" data-aero-preset="shear">Wind Shear</button>
+                </div>
+              </div>
+
+              <div class="sim-telemetry-box">
+                <div class="telemetry-row">
+                  <span>Airspeed</span>
+                  <span id="telAirspeed">14.0 m/s</span>
+                </div>
+                <div class="telemetry-row">
+                  <span>Dynamic Pressure</span>
+                  <span id="telDynPressure">120.1 Pa</span>
+                </div>
+                <div class="telemetry-row">
+                  <span>Reynolds Number</span>
+                  <span id="telReynolds">426,000</span>
+                </div>
+                <div class="telemetry-row">
+                  <span>Array Power Draw</span>
+                  <span id="telPowerDraw">12.4 kW</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PANE 2: SHREDDER (SINGLE SHAFT) -->
+        <div class="sim-pane" id="tabShredder">
+          <div class="sim-layout">
+            <div class="canvas-container">
+              <canvas id="shredCanvas"></canvas>
+              <div class="canvas-overlay-ui">
+                <span class="canvas-badge">Single Powered Shaft Rotor</span>
+                <span class="canvas-badge">Fixed Counter-Comb Bed</span>
+              </div>
+            </div>
+
+            <div class="sim-controls-panel">
+              <h4 style="color: var(--accent-amber); font-size: 1.05rem;">ShredX-30 Shearing Kinematics</h4>
+              <p style="font-size: 0.8rem; color: var(--text-muted);">
+                Single rotary shaft rotates spiral hook blades tightly against stationary fixed bed knives, shearing plastic into 4mm regrind.
+              </p>
+
+              <div class="control-group">
+                <div class="control-label-row">
+                  <span>Rotor Shaft Velocity</span>
+                  <span class="control-val" id="shredRpmVal">36 RPM</span>
+                </div>
+                <input type="range" id="shredRpmSlider" min="10" max="65" step="1" value="36">
+              </div>
+
+              <div class="sim-button-row">
+                <button class="btn btn-secondary" id="dropScrapBtn" style="font-size: 0.825rem; padding: 8px 14px;">
+                  + Feed Plastic Scrap
+                </button>
+                <button class="btn btn-outline" id="shredDirToggle" style="font-size: 0.825rem; padding: 8px 14px;">
+                  Direction: Forward Shred
+                </button>
+                <button class="btn btn-secondary" id="shredEStopBtn" style="font-size: 0.825rem; padding: 8px 14px; border-color: var(--accent-rose); color: var(--accent-rose);">
+                  EMERGENCY STOP
+                </button>
+              </div>
+
+              <div class="sim-telemetry-box">
+                <div class="telemetry-row">
+                  <span>Motor Status</span>
+                  <span id="telShredStatus" style="color: var(--accent-emerald);">RUNNING (FORWARD)</span>
+                </div>
+                <div class="telemetry-row">
+                  <span>Shaft Torque Load</span>
+                  <span id="telShredTorque">38% (129 N·m)</span>
+                </div>
+                <div class="telemetry-row">
+                  <span>Flakes Classified</span>
+                  <span id="telFlakeCount">1,420 pcs</span>
+                </div>
+                <div class="telemetry-row">
+                  <span>Chamber Geometry</span>
+                  <span>300 × 300 mm Single-Shaft</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PANE 3: EXTRUDER -->
+        <div class="sim-pane" id="tabExtruder">
+          <div class="sim-layout">
+            <div class="canvas-container">
+              <canvas id="extrudeCanvas"></canvas>
+              <div class="canvas-overlay-ui">
+                <span class="canvas-badge">Continuous Melt Extrusion</span>
+                <span class="canvas-badge">Dual-Axis Laser Gauge</span>
+              </div>
+            </div>
+
+            <div class="sim-controls-panel">
+              <h4 style="color: var(--accent-cyan); font-size: 1.05rem;">ExtrudeX Process Telemetry</h4>
+
+              <div class="control-group">
+                <label style="font-size: 0.85rem; font-weight: 600;">Polymer Profile</label>
+                <select class="form-control" id="polymerSelector" style="padding: 8px 12px; font-size: 0.85rem;">
+                  <option value="PLA">PLA Recycled Flakes (205°C)</option>
+                  <option value="PETG">PETG Regrind (235°C)</option>
+                  <option value="ABS">ABS High-Impact (245°C)</option>
+                  <option value="PACF">PA-CF Carbon Fiber (265°C)</option>
+                  <option value="TPU">TPU Elastomer (215°C)</option>
+                </select>
+              </div>
+
+              <div class="control-group">
+                <div class="control-label-row">
+                  <span>Extrusion Screw Speed</span>
+                  <span class="control-val" id="screwRpmVal">8.0 RPM</span>
+                </div>
+                <input type="range" id="screwRpmSlider" min="2" max="20" step="0.5" value="8">
+              </div>
+
+              <div class="sim-button-row">
+                <button class="btn btn-secondary active" id="pidToggleBtn" style="font-size: 0.825rem; padding: 8px 14px;">
+                  Optical Laser PID: Active
+                </button>
+              </div>
+
+              <div class="sim-telemetry-box">
+                <div class="telemetry-row">
+                  <span>Laser Measured Dia</span>
+                  <span id="telExtrudeDia" style="color: var(--accent-emerald); font-weight: 700;">1.750 mm</span>
+                </div>
+                <div class="telemetry-row">
+                  <span>Die Nozzle Temp</span>
+                  <span id="telExtrudeTemp">205 °C</span>
+                </div>
+                <div class="telemetry-row">
+                  <span>Filament Extruded</span>
+                  <span id="telExtrudeMeters">34.8 m</span>
+                </div>
+                <div class="telemetry-row">
+                  <span>Spool Packaging</span>
+                  <span>Auto-Traverse Wound</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       WINDSHAPER MODULAR CONFIGURATOR
+       ========================================================================== -->
+  <section class="configurator-section" id="configurator">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">CUSTOM FACILITY SIZING</span>
+        <h2 class="section-title">Citadel AeroGrid Facility Builder</h2>
+        <p class="section-desc">
+          Configure an aerodynamic fan array tailored to your test section. Select the width and height in modular units (each unit houses 9 independent fan pixels).
+        </p>
+      </div>
+
+      <div class="configurator-grid">
+        <div class="config-preview-panel">
+          <span class="badge badge-emerald" style="align-self: flex-start;">Array Front Elevation</span>
+          <div class="fan-matrix-display" id="fanMatrixDisplay"></div>
+          <span style="font-size: 0.775rem; color: var(--text-muted); margin-top: 10px;">
+            Dynamic matrix of 25x25 cm contra-rotating fan modules with integrated flow straighteners.
+          </span>
+        </div>
+
+        <div class="config-options-panel">
+          <h3 style="font-size: 1.4rem;">Modular Dimensions</h3>
+
+          <div class="control-group">
+            <div class="control-label-row">
+              <label for="cfgWidth">Array Width (Modules)</label>
+              <span class="control-val"><span id="cfgWidthVal">4</span> Modules</span>
+            </div>
+            <input type="range" id="cfgWidth" min="1" max="10" step="1" value="4" oninput="document.getElementById('cfgWidthVal').textContent = this.value">
+          </div>
+
+          <div class="control-group">
+            <div class="control-label-row">
+              <label for="cfgHeight">Array Height (Modules)</label>
+              <span class="control-val"><span id="cfgHeightVal">3</span> Modules</span>
+            </div>
+            <input type="range" id="cfgHeight" min="1" max="8" step="1" value="3" oninput="document.getElementById('cfgHeightVal').textContent = this.value">
+          </div>
+
+          <div class="config-summary-card">
+            <div class="config-summary-row">
+              <span class="label">Total Fan Modules:</span>
+              <span class="val" id="cfgModulesCount">12 Units</span>
+            </div>
+            <div class="config-summary-row">
+              <span class="label">Total Wind Pixels:</span>
+              <span class="val" id="cfgPixelsCount">108 Pixels</span>
+            </div>
+            <div class="config-summary-row">
+              <span class="label">Active Flow Dimensions:</span>
+              <span class="val" id="cfgTestArea">1.00 m × 0.75 m (0.75 m²)</span>
+            </div>
+            <div class="config-summary-row">
+              <span class="label">Max Velocity Rating:</span>
+              <span class="val">25.0 m/s (90 km/h)</span>
+            </div>
+            <div class="config-summary-row">
+              <span class="label">Estimated Peak Power:</span>
+              <span class="val" id="cfgPowerEstimate">9.0 kW Peak</span>
+            </div>
+          </div>
+
+          <button class="btn btn-primary" id="cfgRequestQuoteBtn">
+            Request Quotation for this Configuration
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SPECIFICATIONS TABLE (GUESSED SPECS)
+       ========================================================================== -->
+  <section id="specifications">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">ENGINEERING BENCHMARKS</span>
+        <h2 class="section-title">Technical Specifications</h2>
+        <p class="section-desc">
+          Engineering specs across Citadel's 3 primary machines. Custom alterations, frame dimensions, voltage configurations, and materials are available on request.
+        </p>
+      </div>
+
+      <div class="specs-table-wrapper">
+        <table class="specs-table">
+          <thead>
+            <tr>
+              <th>Specification Parameter</th>
+              <th>Citadel AeroGrid™ Facility</th>
+              <th>Citadel ShredX-30 Machine</th>
+              <th>Citadel ExtrudeX Desktop</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Primary Function</td>
+              <td class="product-col">Modular Fan-Array Flow Generator</td>
+              <td class="product-col">30x30 cm Polymer Waste Granulation</td>
+              <td class="product-col">Continuous Filament Extrusion & Winding</td>
+            </tr>
+            <tr>
+              <td>Working Geometry / Area</td>
+              <td class="product-col">Scalable (e.g. 1.0 m × 1.0 m to 3.0 m × 2.0 m)</td>
+              <td class="product-col">300 mm × 300 mm Cutting Box</td>
+              <td class="product-col">16 mm Nitrided Screw, L/D 24:1</td>
+            </tr>
+            <tr>
+              <td>Core Mechanism</td>
+              <td class="product-col">Array of Brushless Ducted Fans (9 per module)</td>
+              <td class="product-col">Single rotary shaft + fixed counter-comb knives</td>
+              <td class="product-col">Multi-zone heated barrel + motorized puller</td>
+            </tr>
+            <tr>
+              <td>Velocity / Throughput</td>
+              <td class="product-col">0.5 to 25.0 m/s (independently per pixel)</td>
+              <td class="product-col">8 – 25 kg/hr (material dependent)</td>
+              <td class="product-col">0.8 – 2.2 kg/hr (PLA / PETG)</td>
+            </tr>
+            <tr>
+              <td>Tolerances / Accuracy</td>
+              <td class="product-col">&lt; 150 ms step response, 100 Hz refresh</td>
+              <td class="product-col">4.0 mm interchangeable classifier mesh</td>
+              <td class="product-col">1.75 mm / 2.85 mm (±0.02 mm closed-loop)</td>
+            </tr>
+            <tr>
+              <td>Motor & Power Supply</td>
+              <td class="product-col">Industrial 3-Phase 400V / 230V PFC Rack</td>
+              <td class="product-col">2.2 kW – 3.0 kW Planetary Motor Drive</td>
+              <td class="product-col">650 W Single-Phase 220V/110V AC</td>
+            </tr>
+            <tr>
+              <td>Structural Framework</td>
+              <td class="product-col">Anodized 8020 aluminum modular rack</td>
+              <td class="product-col">T-Slot aluminum profiles + Hardox blades</td>
+              <td class="product-col">Powder-coated steel & brushed aluminum</td>
+            </tr>
+            <tr>
+              <td>Control Interface</td>
+              <td class="product-col">Citadel FlowOS (Web GUI & Python SDK)</td>
+              <td class="product-col">Microcontroller with auto-jam reversal</td>
+              <td class="product-col">5" Full-Color Capacitive Touchscreen HMI</td>
+            </tr>
+            <tr>
+              <td>Safety & Certifications</td>
+              <td class="product-col">Finger guard grilles, E-stop, Overcurrent</td>
+              <td class="product-col">Hopper interlock, E-stop, Reverse clearing</td>
+              <td class="product-col">Thermal runaway protection, CE Compliant</td>
+            </tr>
+            <tr>
+              <td>Pricing Policy</td>
+              <td class="product-col" style="color: var(--accent-cyan);">Inquire for Custom Quotation</td>
+              <td class="product-col" style="color: var(--accent-cyan);">Inquire for Custom Quotation</td>
+              <td class="product-col" style="color: var(--accent-cyan);">Inquire for Custom Quotation</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       ODTU TEKNOKENT ENGINEERING R&D
+       ========================================================================== -->
+  <section class="teknokent-section" id="teknokent">
+    <div class="container">
+      <div class="teknokent-grid">
+        <div>
+          <span class="badge">TURKEY'S PREMIER TECH INNOVATION HUB</span>
+          <h2 class="section-title" style="margin-top: 12px;">Based at ODTU Teknokent, Ankara</h2>
+          <p class="section-desc" style="margin-bottom: 20px;">
+            Citadel is established in ODTU Teknokent (Middle East Technical University Technopolis) — Turkey's foremost science and innovation ecosystem. Leveraging world-class aerodynamics facilities, CNC precision fabrication, and cutting-edge materials laboratories, our hardware is designed, prototyped, and manufactured locally.
+          </p>
+          <div class="teknokent-badges">
+            <span class="badge badge-emerald">In-House CNC Milling</span>
+            <span class="badge badge-emerald">Laser Blade Hardening</span>
+            <span class="badge badge-emerald">Wind Tunnel Calibration</span>
+            <span class="badge badge-emerald">Polymer Rheology Testing</span>
+          </div>
+          <div style="margin-top: 30px;">
+            <button class="btn btn-primary" data-open-modal="rfqModal">Schedule a Facility Visit / Meeting</button>
+          </div>
+        </div>
+
+        <div>
+          <div style="margin-bottom: 14px; display: flex; justify-content: space-between; align-items: center;">
+            <h4 style="font-size: 0.95rem; color: var(--accent-cyan); text-transform: uppercase;">Prototype to Production</h4>
+            <span class="mono" style="font-size: 0.8rem; color: var(--text-muted);">Citadel Hardware Lab</span>
+          </div>
+          <div class="prototype-comparison-grid">
+            <div class="prototype-card">
+              <img src="assets/images/prototype_shredder_top.png" alt="Citadel Shredder Prototype cutting chamber assembly at ODTU Teknokent">
+              <div class="prototype-card-body">
+                <h4>Benchtop Prototype Assembly</h4>
+                <p>Single shaft rotor & fixed comb bed testing at ODTU lab.</p>
+              </div>
+            </div>
+            <div class="prototype-card">
+              <img src="assets/images/citadel_shredder_render.jpg" alt="Finalized Citadel ShredX-30 Production PR Render">
+              <div class="prototype-card-body">
+                <h4>Finalized Industrial Model</h4>
+                <p>Full safety enclosure, planetary gearbox & Citadel branding.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SITE FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="assets/images/citadel_logo.svg" alt="Citadel" height="42" style="width: auto;">
+          <p>
+            Citadel Advanced Engineering.<br>
+            Bridging modular aerodynamic flow facilities with closed-loop sustainable polymer machinery.
+          </p>
+          <span class="mono" style="font-size: 0.8rem; color: var(--accent-cyan);">
+            ODTU Teknokent, Üniversiteler Mah. 06800 Çankaya, Ankara / Türkiye
+          </span>
+        </div>
+
+        <div class="footer-col">
+          <h4>Machinery</h4>
+          <ul class="footer-links">
+            <li><a href="#aerogrid">Citadel AeroGrid™</a></li>
+            <li><a href="#shredder">Citadel ShredX-30</a></li>
+            <li><a href="#extruder">Citadel ExtrudeX</a></li>
+            <li><a href="#configurator">Wind Facility Builder</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Engineering</h4>
+          <ul class="footer-links">
+            <li><a href="#interactive-studio">Simulation Studio</a></li>
+            <li><a href="#specifications">Technical Specifications</a></li>
+            <li><a href="#teknokent">ODTU Teknokent Lab</a></li>
+            <li><a data-open-modal="qualityModal">CE & Quality Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Commercial & Legal</h4>
+          <ul class="footer-links">
+            <li><a data-open-modal="rfqModal">Request for Quotation (RFQ)</a></li>
+            <li><a data-open-modal="termsModal">Terms & Conditions</a></li>
+            <li><a data-open-modal="privacyModal">Privacy & KVKK Policy</a></li>
+            <li><a data-open-modal="rfqModal">Distributor Inquiry</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Citadel Advanced Engineering. All Rights Reserved. Designed & Manufactured in Turkey.
+        </div>
+        <div class="footer-legal-links">
+          <a data-open-modal="termsModal">Terms of Service</a>
+          <a data-open-modal="privacyModal">KVKK & GDPR Privacy</a>
+          <a data-open-modal="qualityModal">Quality & ISO Statement</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       MODAL 1: REQUEST FOR QUOTE (RFQ) & CONTACT
+       ========================================================================== -->
+  <div class="modal-backdrop" id="rfqModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 class="modal-title">Request for Quotation (RFQ)</h3>
+        <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p>
+          As our machines are engineered to custom facility and laboratory requirements, <strong>prices are provided via custom quotation</strong>. Please provide your institutional and technical parameters.
+        </p>
+
+        <div id="rfqResponseBox" style="display: none;"></div>
+
+        <form id="rfqForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="rfqName">Full Name *</label>
+              <input type="text" id="rfqName" class="form-control" placeholder="Dr. Jane Smith" required>
+            </div>
+            <div class="form-group">
+              <label for="rfqEmail">Corporate / Academic Email *</label>
+              <input type="email" id="rfqEmail" class="form-control" placeholder="j.smith@aerolab.edu.tr" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="rfqOrg">Institution / Company *</label>
+              <input type="text" id="rfqOrg" class="form-control" placeholder="University Aero Department / Defense Corp" required>
+            </div>
+            <div class="form-group">
+              <label for="rfqSystem">Selected Citadel System *</label>
+              <select id="rfqSystem" class="form-control" required>
+                <option value="AEROGRID">Citadel AeroGrid Modular Windshaper</option>
+                <option value="SHREDX30">Citadel ShredX-30 Single-Shaft Shredder</option>
+                <option value="EXTRUDEX">Citadel ExtrudeX Desktop Extruder</option>
+                <option value="TURNKEY">Turnkey Aerodynamics + Recycling Suite</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="rfqDetails">Technical Requirements / Scope *</label>
+            <textarea id="rfqDetails" class="form-control" rows="4" placeholder="Specify test volume, voltage standard, polymer types, or custom cradle mounting requirements..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 10px;">
+            Submit Quotation Request
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       MODAL 2: TERMS AND POLICIES
+       ========================================================================== -->
+  <div class="modal-backdrop" id="termsModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 class="modal-title">Terms of Service & Commercial Conditions</h3>
+        <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <h3>1. Commercial Scope</h3>
+        <p>
+          These terms govern all proposals, quotations, sales, and supply contracts executed by Citadel Advanced Engineering ("Citadel"), registered at ODTU Teknokent, Ankara, Turkey. Hardware deliveries include technical commissioning, user manuals, and compliance documentation.
+        </p>
+
+        <h3>2. Quotations & Pricing Policy</h3>
+        <p>
+          All machine specifications, options, and auxiliary attachments are custom quoted based on customer test volume, material throughput, electrical standards (400V 3-phase or 230V single-phase), and installation location. Official quotations remain valid for 60 calendar days from issuance.
+        </p>
+
+        <h3>3. Equipment Warranty & Support</h3>
+        <p>
+          Citadel hardware carries a comprehensive 24-month limited warranty on structural frames, motors, reducers, and electronic controllers. Wear components (shredder cutter blades, extrusion nozzles, silicone seals) are subject to inspection and consumable replacement intervals as outlined in the technical handbook.
+        </p>
+
+        <h3>4. Intellectual Property</h3>
+        <p>
+          All patents, mechanical blueprints, control algorithms (Citadel FlowOS), firmware, and branding elements remain the exclusive intellectual property of Citadel Advanced Engineering.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       MODAL 3: PRIVACY & KVKK POLICY
+       ========================================================================== -->
+  <div class="modal-backdrop" id="privacyModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 class="modal-title">Privacy & Data Protection Policy (KVKK & GDPR)</h3>
+        <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <h3>1. Data Controller</h3>
+        <p>
+          Citadel Advanced Engineering, situated at ODTU Teknokent, Ankara, acts as the data controller in compliance with the Turkish Law on the Protection of Personal Data (KVKK Law No. 6698) and international GDPR regulations.
+        </p>
+
+        <h3>2. Information We Collect</h3>
+        <p>
+          We only collect personal and institutional information explicitly submitted through our Request for Quote (RFQ) forms, including your name, corporate/academic email, telephone, affiliated institution, and technical inquiries.
+        </p>
+
+        <h3>3. Purpose of Processing</h3>
+        <p>
+          Submitted details are utilized solely for:
+        </p>
+        <ul>
+          <li>Generating bespoke technical proposals and quotation estimates</li>
+          <li>Providing engineering consultation regarding our aerodynamic and polymer hardware</li>
+          <li>Maintaining institutional communication and customer support</li>
+        </ul>
+
+        <h3>4. Security & Your Rights</h3>
+        <p>
+          Citadel never sells or conveys commercial inquiry data to third parties. Under Article 11 of the KVKK, you may at any time request access to, rectification of, or deletion of your personal data by contacting contact@citadel.com.tr.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       MODAL 4: CE QUALITY & STANDARDS STATEMENT
+       ========================================================================== -->
+  <div class="modal-backdrop" id="qualityModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 class="modal-title">Quality Assurance & CE Standards Compliance</h3>
+        <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <h3>Machinery Directive Compliance</h3>
+        <p>
+          All Citadel equipment is engineered in accordance with international industrial standards:
+        </p>
+        <ul>
+          <li><strong>CE Machinery Directive 2006/42/EC</strong>: Incorporating emergency shutoffs, physical guarding, dual interlocks, and risk minimization.</li>
+          <li><strong>Low Voltage Directive 2014/35/EU</strong>: Electrical safety certification for high-torque motors, heating elements, and PSU racks.</li>
+          <li><strong>EMC Directive 2014/30/EU</strong>: Electromagnetic compatibility across all brushless motor inverters, laser sensors, and digital bus communications.</li>
+        </ul>
+
+        <h3>ISO 9001 Quality Framework</h3>
+        <p>
+          Fabrication at our ODTU Teknokent partner facilities adheres to strict dimensional inspection protocols, laser hardness verification for shredder knives, and dynamic flow sensor calibration for our fan array wind systems.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
