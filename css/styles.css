@@ -964,7 +964,7 @@ input[type="range"]::-webkit-slider-thumb:hover {
 }
 
 /* ==========================================================================
-   TECHNICAL SPECIFICATIONS TABLE
+   TECHNICAL SPECIFICATIONS TABLE (HIGH-LEGIBILITY SANS-SERIF)
    ========================================================================== */
 .specs-table-wrapper {
   background: #FFFFFF;
@@ -978,7 +978,9 @@ input[type="range"]::-webkit-slider-thumb:hover {
   width: 100%;
   border-collapse: collapse;
   text-align: left;
-  font-size: 0.925rem;
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  line-height: 1.6;
 }
 
 .specs-table th, .specs-table td {
@@ -987,29 +989,50 @@ input[type="range"]::-webkit-slider-thumb:hover {
 }
 
 .specs-table th {
-  background: #F8FAFC;
-  color: var(--text-primary);
+  background: #F1F5F9;
+  color: #0F172A;
+  font-family: var(--font-sans);
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 0.8rem;
-  letter-spacing: 0.06em;
-  border-bottom: 2px solid var(--border-subtle);
+  font-size: 0.825rem;
+  letter-spacing: 0.05em;
+  border-bottom: 2px solid #CBD5E1;
 }
 
-.specs-table tr:hover td {
-  background: #F8FAFC;
+.specs-table th:not(:first-child) {
+  color: #1D4ED8;
+}
+
+.specs-table tbody tr:nth-child(even) {
+  background-color: #F8FAFC;
+}
+
+.specs-table tbody tr:nth-child(odd) {
+  background-color: #FFFFFF;
+}
+
+.specs-table tbody tr:hover {
+  background-color: #EFF6FF;
 }
 
 .specs-table td:first-child {
-  font-weight: 600;
-  color: var(--text-primary);
-  width: 25%;
+  font-weight: 700;
+  color: #0F172A;
+  font-family: var(--font-sans);
+  width: 24%;
+  font-size: 0.925rem;
 }
 
 .specs-table .product-col {
-  color: var(--text-secondary);
-  font-family: var(--font-mono);
-  font-size: 0.875rem;
+  color: #334155;
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 400;
+}
+
+.specs-table tr:last-child .product-col {
+  color: var(--accent-blue);
+  font-weight: 600;
 }
 
 /* ==========================================================================
